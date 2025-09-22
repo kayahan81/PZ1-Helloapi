@@ -22,7 +22,7 @@
 
 # Функциональность
 - curl http://localhost:<порт>/hello - возвращает текстовое приветствие
-- curl http://localhost:<порт>/user - возвращает JSON с данными пользователя, включая UUID
+- curl http://localhost:<порт>/user - возвращает JSON с данными пользователя
 - curl http://localhost:<порт>/health - возвращает текущее время в RFC3339
 
 # Файловая структура проекта:
