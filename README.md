@@ -30,8 +30,8 @@
 <img width="876" height="301" alt="структура проекта" src="https://github.com/user-attachments/assets/6f32dd3a-7065-41b9-8c60-cbae37d7cfb6" />
 
 # Требования
-Go: 1.25.1 или новее
-Git: 2.51.0 или новее
+Go: 1.25.1 или новее (качается с https://go.dev/dl/)
+Git: 2.51.0 или новее (качается с https://git-scm.com/downloads)
 
 <img width="841" height="232" alt="Установка Git и Go" src="https://github.com/user-attachments/assets/9f703675-a68b-484e-9e13-a80983a82620" />
 
