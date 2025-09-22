@@ -15,7 +15,7 @@
 # Задания :
 -    Установить Go и Git, проверить версии.
 -    Инициализировать модуль Go в новом проекте.
--    Релизовать HTTP-сервер с маршрутами /hello (текст) и /user (JSON).
+-    Релизовать HTTP-сервер с маршрутами /hello (текст) и /user (JSON) и /health (задание со звёздочкой).
 -	Подключить внешнюю библиотеку (генерация UUID) и использовать её в /user.
 -	Запустить и проверить ответы curl/браузером.
 -	Собрать бинарник .exe и подготовить README и отчёт.
@@ -30,8 +30,8 @@
 <img width="876" height="301" alt="структура проекта" src="https://github.com/user-attachments/assets/6f32dd3a-7065-41b9-8c60-cbae37d7cfb6" />
 
 # Требования
-Go: 1.22 или новее
-Git: 2.38.1 или новее
+Go: 1.25.1 или новее
+Git: 2.51.0 или новее
 
 <img width="841" height="232" alt="Установка Git и Go" src="https://github.com/user-attachments/assets/9f703675-a68b-484e-9e13-a80983a82620" />
 
@@ -78,29 +78,15 @@ $env:APP_PORT="8081"
 
 # Отчётные материалы
 
-## Скриншоты эндпоинтов на порте 
-
 ### Эндпоинт /hello
-
-```Powershell
-curl http://localhost:8081/hello
-```
 
 <img width="1431" height="596" alt="В другом окне PowerShell проверьте эндпоинты Hello" src="https://github.com/user-attachments/assets/69d39ffc-55f1-49dd-98c7-0d88bc4de2fd" />
 
 ### Эндпоинт /user
 
-```Powershell
-curl http://localhost:8081/user
-```
-
 <img width="1392" height="560" alt="В другом окне PowerShell проверьте эндпоинты User" src="https://github.com/user-attachments/assets/fb9de5aa-990f-4a97-8ecb-53b793a28bd1" />
 
-### Эндпоинт /health(дополнительный пункт)
-
-```Powershell
-curl http://localhost:8081/health
-```
+### Эндпоинт /health
 
 <img width="1381" height="526" alt="Доп  звёздочка добавить health c JSON " src="https://github.com/user-attachments/assets/05365653-aba4-4a54-91fd-73560fc51868" />
 
